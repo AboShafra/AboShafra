@@ -47,12 +47,12 @@ My primary focus is on **Detection Engineering, SIEM administration, and Threat 
 
 ## 🏆 Featured Project
 
-### [Enterprise Active Directory & SIEM Threat Hunting Lab](#) *(Repository coming soon)*
+### [Enterprise Active Directory & SIEM Threat Hunting Lab](https://github.com/AboShafra/Enterprise_Active_Directory__SIEM_Threat_Hunting_Lab)
 Engineered a virtualized enterprise Active Directory environment integrated with a Splunk SIEM to simulate and detect real-world adversarial activity.
-* **Infrastructure:** Deployed VMware-based isolated network consisting of Windows Server 2022 (DC), Windows 10 (Target), Ubuntu (Splunk Indexer/Search Head), and Kali Linux.
-* **Data Pipeline:** Configured Sysmon (Olaf Hartong configuration) and Splunk Universal Forwarders to ensure Common Information Model (CIM) compliance.
+* **Infrastructure:** Deployed VMware-based isolated network consisting of Windows Server 2022 (DC), Windows 10 (Target), Ubuntu (Splunk Indexer), and Kali Linux.
 * **Threat Simulation:** Executed Credential Access (T1110.001) via Hydra and Persistence (T1136.001) via Atomic Red Team.
-* **Detection Engineering:** Developed custom, threshold-based SPL queries correlating Sysmon Event ID 1 (Process Lineage) and specific error codes (0xc000006d) to achieve a Time to Detect (TTD) of ~2 minutes.
+* **Detection Engineering:** Developed custom, threshold-based SPL queries correlating Sysmon Event ID 1 and specific error codes (0xc000006d).
+* **Metrics:** Achieved a verified **Time to Detect (TTD) of ~2 minutes**.
 
 ---
 
